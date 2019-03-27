@@ -1,5 +1,5 @@
 whatis("Name:        Stata")
-whatis("Version:     15")
+whatis("Version:     15.1")
 whatis("Category:    applications, statistics, licensed")
 whatis("Keywords:    application, statistics")
 whatis("URL:         https://www.stata.com/why-use-stata")
