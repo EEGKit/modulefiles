@@ -7,3 +7,4 @@ whatis("Description: SQL*PLUS client for oracle databases")
 
 prepend_path("PATH","/share/sw/open/sqlplus/18.5.0.0/bin")
 prepend_path("LD_LIBRARY_PATH","/share/sw/open/sqlplus/18.5.0.0/lib")
+always_load("oracle-cx-client/18.5.0.0")
