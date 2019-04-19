@@ -23,7 +23,7 @@ function load_hook(t)
                                user, t.modFullName, t.fn, jobid, host, time)
 
 -- logger may not work right from Jupyter, we may need to change this.
-   os.execute("logger -t nero_module_tracking -p local0.info " .. msg)
+   os.execute("logger -t nero_module_tracking" .. msg)
 end
 
 hook.register("load", load_hook)
