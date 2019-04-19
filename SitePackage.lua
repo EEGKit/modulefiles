@@ -21,6 +21,8 @@ function load_hook(t)
    local time  = epoch()
    local msg   = string.format("user=%s module=%s path=%s job=%s host=%s time=%f",
                                user, t.modFullName, t.fn, jobid, host, time)
+
+-- logger may not work right from Jupyter, we may need to change this.
    os.execute("logger -t nero_module_tracking -p local0.info " .. msg)
 end
 
