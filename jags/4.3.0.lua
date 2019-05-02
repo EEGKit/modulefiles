@@ -6,3 +6,4 @@ whatis("URL:         http://mcmc-jags.sourceforge.net/")
 whatis("Description: JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation  not wholly unlike BUGS.")
 
 prepend_path("PATH","/share/sw/open/jags/bin")
+prepend_path("PKG_CONFIG_PATH","/share/sw/open/jags/lib/pkgconfig")
