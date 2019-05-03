@@ -7,3 +7,4 @@ whatis("Description: JAGS is Just Another Gibbs Sampler.  It is a program for an
 
 prepend_path("PATH","/share/sw/open/jags/bin")
 prepend_path("PKG_CONFIG_PATH","/share/sw/open/jags/lib/pkgconfig")
+prepend_path("LD_LIBRARY_PATH","/share/sw/open/jags/lib")
