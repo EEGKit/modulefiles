@@ -1,0 +1,10 @@
+whatis("Name:        wiseR")
+whatis("Version:     1.0.1")
+whatis("Category:    applications, R, Rstudio, Shiny")
+whatis("Keywords:    application, R, Rstudio, Shiny")
+whatis("URL:         https://github.com/SAFE-ICU/wiseR/")
+whatis("Description: A Shiny application for end-to-end Bayesian Decision Network analysis and deployment. Includes functionalities for learning structure, exact inference, approximate inference, data-driven decision network, policy optimization, visualization layouts, cytoscape export, correlation networks, modularity detection and web-deployment of the learned models as Shiny applications.")
+
+always_load("anaconda")
+always_load("rstudio")
+always_load("shiny")
