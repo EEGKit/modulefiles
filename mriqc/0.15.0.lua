@@ -1,5 +1,5 @@
 whatis("Name:        mriqc")
-whatis("Version:     0.14.2")
+whatis("Version:     0.15.0")
 whatis("Category:    applications, neuroimaging")
 whatis("Keywords:    application, neuroimaging")
 whatis("URL:         https://mriqc.readthedocs.io")
