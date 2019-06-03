@@ -1,5 +1,5 @@
 whatis("Name:        nk2edf")
-whatis("Version:     14")
+whatis("Version:     1.4")
 whatis("Category:    applications")
 whatis("Keywords:    application, converter")
 whatis("URL:         https://www.teuniz.net/edf/")
