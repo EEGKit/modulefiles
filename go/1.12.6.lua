@@ -1,6 +1,6 @@
-whatis("Name:        Google Cloud Utilities")
-whatis("Version:     250")
-whatis("URL:         https://cloud.google.com/sdk")
-whatis("Description: tools for working with google cloud")
+whatis("Name:        Go Language")
+whatis("Version:     1.12.6")
+whatis("URL:         https://www.golang.org")
+whatis("Description: Language runtime for Go")
 
-prepend_path("PATH","/share/sw/open/google/google-cloud-sdk-250.0.0/bin")
+prepend_path("PATH","/share/sw/open/go/1.12.6/bin")
