@@ -5,6 +5,5 @@ whatis("Keywords:    library, video, images")
 whatis("URL:         https://github.com/CMU-Perceptual-Computing-Lab/openpose/")
 whatis("Description: library for real-time multi-person keypoint detection and multi-threading written in C++ using OpenCV and Caffe*.")
 
-setenv("CTAKES_HOME","/share/sw/open/openpose/apache-ctakes-4.0.0")
-prepend_path("PATH","/share/sw/open/openpose/openpose_sw")
-#prepend_ld_library_path("LD_LIBRARY_PATH","/share/sw/open/openpose/openpose-lib-dependencies/")
+setenv("OPENPOSE_HOME","/share/sw/open/openpose/openpose_sw")
+prepend_path("LD_LIBRARY_PATH","/share/sw/open/openpose/openpose-lib-dependencies")
