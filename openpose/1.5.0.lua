@@ -6,4 +6,5 @@ whatis("URL:         https://github.com/CMU-Perceptual-Computing-Lab/openpose/")
 whatis("Description: library for real-time multi-person keypoint detection and multi-threading written in C++ using OpenCV and Caffe*.")
 
 setenv("OPENPOSE_HOME","/share/sw/open/openpose/openpose_sw/openpose_orig")
+setenv("OPENPOSE_INSTALL","/share/sw/open/openpose/openpose_sw/install")
 prepend_path("LD_LIBRARY_PATH","/share/sw/open/openpose/openpose-lib-dependencies")
