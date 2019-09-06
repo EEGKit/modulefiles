@@ -1,0 +1,11 @@
+whatis("Name:        tesseract-ocr")
+whatis("Version:     4.1.0")
+whatis("Category:    applications, imaging, ocr")
+whatis("Keywords:    application, imaging, ocr")
+whatis("URL:         https://afni.nimh.nih.gov/about_afni")
+whatis("Description: Tesseract is an OCR engine with support for unicode and the ability to recognize more than 100 languages out of the box. It can be trained to recognize other languages.")
+
+prepend_path("PATH","/share/sw/open/tesseract/local/bin") 
+prepend_path("LD_LIBRARY_PATH","/share/sw/open/tesseract/local/lib")
+prepend_path("LIBLEPT_HEADERSDIR","/share/sw/open/tesseract/local/include/leptonica")
+prepend_path("PKG_CONFIG_PATH","/share/sw/open/tesseract/local/lib/pkgconfig")
