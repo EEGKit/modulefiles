@@ -2,7 +2,7 @@ whatis("Name:        tesseract-ocr")
 whatis("Version:     4.1.0")
 whatis("Category:    applications, imaging, ocr")
 whatis("Keywords:    application, imaging, ocr")
-whatis("URL:         https://afni.nimh.nih.gov/about_afni")
+whatis("URL:         https://github.com/tesseract-ocr/tesseract")
 whatis("Description: Tesseract is an OCR engine with support for unicode and the ability to recognize more than 100 languages out of the box. It can be trained to recognize other languages.")
 
 prepend_path("PATH","/share/sw/open/tesseract/local/bin") 
