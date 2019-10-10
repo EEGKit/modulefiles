@@ -6,3 +6,4 @@ whatis("URL:         https://www.scala-sbt.org")
 whatis("Description: The interactive build tool used to define your tasks in Scala. Run them in parallel from sbt's interactive shell.")
 
 prepend_path("PATH","/share/sw/open/sbt/bin/")
+always_load("java")
