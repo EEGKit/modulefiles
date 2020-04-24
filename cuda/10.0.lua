@@ -6,4 +6,4 @@ whatis("URL:         https://www.nvidia.com")
 whatis("Description: CUDA 10.0")
 
 always_load("cuda-driver")
-prepend_path("LD_LIBRARY_PATH","/share/sw/open/cuda/10.0/lib64")
+prepend_path("LD_LIBRARY_PATH","/share/sw/open/cuda/10.0.130/lib64")
