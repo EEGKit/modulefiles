@@ -56,8 +56,8 @@ setenv("FFLAGS","-fopenmp -march","nocona -mtune","haswell -ftree-vectorize -fPI
 setenv("CPPFLAGS","-DNDEBUG -D_FORTIFY_SOURCE","2 -O2")
 setenv("STRINGS","/share/sw/open/anaconda/3/bin/x86_64-conda_cos6-linux-gnu-strings")
 setenv("F95","/share/sw/open/anaconda/3/bin/x86_64-conda_cos6-linux-gnu-f95")
-setenv("RSTUDIO_WHICH_R","/share/sw/open/anaconda/3/bin/R
-setenv("LDFLAGS","-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now
+setenv("RSTUDIO_WHICH_R","/share/sw/open/anaconda/3/bin/R")
+setenv("LDFLAGS","-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now")
 setenv("GCC","/share/sw/open/anaconda/3/bin/x86_64-conda_cos6-linux-gnu-gcc")
 setenv("CONDA_DEFAULT_ENV","base")
 setenv("SIZE","/share/sw/open/anaconda/3/bin/x86_64-conda_cos6-linux-gnu-size")
