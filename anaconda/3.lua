@@ -6,7 +6,7 @@ whatis("URL:         https://www.anaconda.com/download/#linux")
 whatis("Description: Python 3 distribution")
 
 prepend_path("PATH","/share/sw/open/anaconda/3/bin")
-postpend_path("CPATH","/usr/include")
+prepend_path("CPATH","/usr/include")
 setenv("CONDA_SHLVL","1")
 setenv("CONDA_EXE","/share/sw/open/anaconda/3/bin/conda")
 setenv("GDAL_DATA","/share/sw/open/anaconda/3/share/gdal")
